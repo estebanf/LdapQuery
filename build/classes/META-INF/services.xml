@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was auto-generated from WSDL -->
+<!-- by the Apache Axis2 version: 1.6.2  Built on : Apr 17, 2012 (05:33:49 IST) -->
+<serviceGroup>
+    <service name="LdapQuery">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="com.intalio.innovelocity.ldapquery.LdapQueryMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">com.intalio.innovelocity.ldapquery.LdapQuerySkeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="NameSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://innovelocity.intalio.com/LdapQuery/">
+            <actionMapping>http://innovelocity.intalio.com/LdapQuery/NameSearch</actionMapping>
+            <outputActionMapping>http://innovelocity.intalio.com/LdapQuery/LdapQuery/NameSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="UidSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://innovelocity.intalio.com/LdapQuery/">
+            <actionMapping>http://innovelocity.intalio.com/LdapQuery/UidSearch</actionMapping>
+            <outputActionMapping>http://innovelocity.intalio.com/LdapQuery/LdapQuery/UidSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="EmailSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://innovelocity.intalio.com/LdapQuery/">
+            <actionMapping>http://innovelocity.intalio.com/LdapQuery/EmailSearch</actionMapping>
+            <outputActionMapping>http://innovelocity.intalio.com/LdapQuery/LdapQuery/EmailSearchResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>
